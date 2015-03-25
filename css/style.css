@@ -110,7 +110,7 @@ img {
   margin-left:1%;
 }
 .superbox-current-img {
-	max-width:100%;
+	max-width:50%;
 	box-shadow:0 1px 4px #222;
 	border:1px solid #222;
   float: left;

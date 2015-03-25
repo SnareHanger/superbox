@@ -22,7 +22,7 @@
       button1Text: Text for the first button,
       button1Clicked: Function for the button1 click event
       button2Text: Text for the second button,
-      button2Clicked: Function for the button2 click event       
+      button2Clicked: Function for the button2 click event 
     }
   */
 	$.fn.SuperBox = function(options) {
@@ -91,7 +91,7 @@
 				}
 				
 				$('html, body').animate({
-					scrollTop:$(superbox).position().top - currentimg.width()
+					scrollTop:$(superbox).offset().top - $('.superbox-item').first().height()
 				}, 'medium');
 			
 			});
